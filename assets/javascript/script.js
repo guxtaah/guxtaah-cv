@@ -12,8 +12,8 @@ fifthText = "Back-End Web Developer";
 sixthText = "Full stack Developer" */
 
 /*------------------------------------- Designer Text Animation -------------------------------------*/
-firstText = "Front-end web Developer";
-secondText = "Developer";
+firstText = "Desenvolvedor Front-end";
+secondText = "Desenvolvedor";
 thridText = "Freelancer"
 fourthText = "";
 fifthText = "";
