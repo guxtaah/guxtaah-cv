@@ -12,12 +12,7 @@ fifthText = "Back-End Web Developer";
 sixthText = "Full stack Developer" */
 
 /*------------------------------------- Designer Text Animation -------------------------------------*/
-firstText = "Desenvolvedor Front-end";
-secondText = "Desenvolvedor";
-thridText = "Freelancer"
-fourthText = "";
-fifthText = "";
-sixthText = ""
+firstText = "Analista de Dados";
 intervalTime = 600;
 window.load = displayText();
 window.load = displayText2();
@@ -30,15 +25,21 @@ function displayText() {
     setTimeout(() => {
         document.querySelector('.designer').innerText = thridText;
     }, intervalTime * 5);
+    setTimeout(() => {
+        document.querySelector('.designer').innerText = fourthText;
+    }, intervalTime * 5);
 }
 function displayText2() {
-    document.querySelector('.designer2').innerText = fourthText;
+    document.querySelector('.designer2').innerText = firstText;
     firstText.innerText
     setTimeout(() => {
-        document.querySelector('.designer2').innerText = fifthText;
+        document.querySelector('.designer2').innerText = secondText;
     }, intervalTime * 3);
     setTimeout(() => {
-        document.querySelector('.designer2').innerText = sixthText;
+        document.querySelector('.designer2').innerText = thridText;
+    }, intervalTime * 5);
+    setTimeout(() => {
+        document.querySelector('.designer2').innerText = fourthText;
     }, intervalTime * 5);
 }
 setInterval(() => {
